@@ -385,7 +385,7 @@ def main():
     pagina = st.sidebar.radio("Escolha uma página:", ["Menu", "Conversor de Bases", "Operações em Bases", "Algoritmo Estendido de Euclides", "Crivo de Eratóstenes"])
 
     if pagina == "Menu":
-        st.title("Trabalho do Vanvan")
+        st.title("Calculadora interativa com conversão de bases, operações numéricas, Crivo de Eratóstenes e Algoritmo de Euclides Estendido")
         st.image("imagem.jpg", caption="Ana Elisa, Isabela e Vitória", use_container_width=True)
         st.write("Bem-vindo! Use o menu à esquerda para navegar.")
     elif pagina == "Conversor de Bases":
