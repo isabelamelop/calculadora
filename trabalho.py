@@ -386,7 +386,7 @@ def main():
 
     if pagina == "Menu":
         st.title("Calculadora interativa com conversão de bases, operações numéricas, Crivo de Eratóstenes e Algoritmo de Euclides Estendido")
-        st.image("imagem.jpg", caption="Ana Elisa, Isabela e Vitória", use_container_width=True)
+        st.image("imagem.jpg", caption="Isabela Pereira", use_container_width=True)
         st.write("Bem-vindo! Use o menu à esquerda para navegar.")
     elif pagina == "Conversor de Bases":
         pag_conversor()
@@ -399,3 +399,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
